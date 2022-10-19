@@ -1,0 +1,60 @@
+/* Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: #A4B494;
+}
+
+.title {
+    text-align: center;
+    color: #BEC5AD;
+    font-family: 'Fuzzy Bubbles', cursive;
+    /* font-family: 'Abril Fatface', cursive; */
+}
+
+.game-name {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title-card {
+    background-color: #3B5249;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 25px;
+}
+
+.board {
+    background: linear-gradient(#3B5249, #22302b);
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.tic-tac-toe {
+    background-color: #BEC5AD;
+    color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.tic-tac-toe tr, td {
+    text-align: center;
+    border: 5px solid #181818;
+    width: 100px;
+    height: 100px;
+    font-size: 55px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+#start-btn {
+    background-color: #34252F;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
